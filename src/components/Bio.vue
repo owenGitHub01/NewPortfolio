@@ -11,7 +11,7 @@ import { isDark } from '../data';
       <p :class="{'available-dark' : isDark, 'available-light' : !isDark}">Available for work</p>
     </div>
     <div class="flex-local width">
-      <img class="img" src="../images/IMG_E6548.JPG" alt="">
+      <img class="img" src="../images/portfolio-me.png" alt="">
       <div class="rest">
         <p :class="{'text-dark' : !isDark, 'text-light' : isDark}" class="p">A hard working, passionate software develop</p>
         <div class="flex-2 icons">
